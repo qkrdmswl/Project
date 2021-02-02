@@ -6,3 +6,10 @@ toggleBtn.addEventListener('click', () => {
     menu.classList.toggle('active');
     icons.classList.toggle('active');
 });
+
+
+// Handle click on "contact me" button on home
+const AboutMeContactBtn = document.querySelector('.category1');
+AboutMeContactBtn.addEventListener('click', () => {
+    scrollIntoView('#AboutMe');
+});
